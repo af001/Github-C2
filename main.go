@@ -156,7 +156,7 @@ func startPolling() {
 				)
 				tc := oauth2.NewClient(ctx, ts)
 
-				retrieveFile(tc, ctx)
+				retrieveFile(tc, ctx) 
 			}
 		}
 	}()
